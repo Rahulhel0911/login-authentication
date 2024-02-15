@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(237, 245, 245);
+}
+h3{
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 60px;
+}
+nav ul{
+    color: white;
+    /* padding: 60px 10px; */
+   
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size:25px;
+
+}
+nav ul a:hover{
+    color: rgba(9, 212, 53, 0.685);
+    text-decoration: underline;
+}
+.jumbotron{
+    background-color: rgb(147, 124, 151);
+    border-radius: 30px;
+    width: 50%;
+}
+
+.card{
+    background-color: rgb(173, 209, 42);
+    /* width: 100%; */
+    margin-left: 28%;
+    margin-right: 28%;
+    padding: 20px 40px;
+    border-radius: 30px;
+    /* text-align: center; */
+
+}
+.btn{
+    color: rgb(238, 171, 16);
+    font-size: 20px;
+    background-color: antiquewhite;
+    border-radius: 110px;
+}
+.btn:hover{
+   background-color: green;
+}
